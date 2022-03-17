@@ -4,7 +4,7 @@ Example: Flutter & Napster Platform (API v2.2)
 
 ## Description
 
-Как этовыглядит: https://youtu.be/Fsg9mRAW45s
+Как этовыглядит: https://youtu.be/8IQ7bVYl840
 
 Дипломная работа по окончании курса по Flutter
 
