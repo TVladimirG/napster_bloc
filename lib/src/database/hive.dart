@@ -18,6 +18,11 @@ class HiveDB {
     }
   }
 
+  static void clearAllTracks() {
+    final Box box = Hive.box<Track>('favorit_tracks');
+    box.clear();
+  }
+
   static Future<void> getAllTracks() async {
     final Box box = await Hive.openBox<Track>('favorit_tracks');
 

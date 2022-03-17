@@ -17,7 +17,7 @@ class LoadTracks {
 
     dynamic decodeDataTracks;
     const int limitTracks = 5;
-    if (offset == 0) {
+    if (offset > 5) {
       offset = 5;
     }
     // final int offsetTracks = CommonParams.trackListProvider.trackListLength();

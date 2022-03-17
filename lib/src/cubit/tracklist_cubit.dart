@@ -11,7 +11,7 @@ class TracklistCubit extends Cubit<TracklistState> {
   TracklistCubit() : super(const TracklistInitial(StateStatus.init));
 
   final List<Track> trackList = [];
-  final int limitTracks = 5;
+  //final int limitTracks = 5;
   bool _loadingInProgress = false;
 
   void getTopTracksBloc({required Artist currentArtist}) async {

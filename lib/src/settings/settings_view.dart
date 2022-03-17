@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:napster_bloc/src/database/hive.dart';
 
 import 'settings_controller.dart';
 
@@ -70,11 +71,8 @@ class SettingsView extends StatelessWidget {
                         actions: [
                           OutlinedButton(
                               onPressed: () {
-                                //  box.delete(currentTrack.id);
-                                //    Navigator.of(context).pop(true);
-                                //    context
-                                //        .read<MemberListCubit>()
-                                //       .clearAllMembers();
+                                HiveDB.clearAllTracks();
+                                Navigator.of(context).pop(true);
                               },
                               child: const Text('Выполнить')),
                           OutlinedButton(
